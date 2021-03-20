@@ -34,6 +34,10 @@ void CGoomba::Update(DWORD dt, vector<LPGAMEOBJECT> *coObjects)
 	if (vx > 0 && x > 290) {
 		x = 290; vx = -vx;
 	}
+
+	if (state == GOOMBA_ANI_DIE) {
+		
+	}
 }
 
 void CGoomba::Render()
